@@ -1,0 +1,17 @@
+{
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "declarationMap": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts", "tests/**/*.test.ts"]
+}
